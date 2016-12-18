@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WebSocket demo</title>
+        <title>Open Pixel Control emulator</title>
     </head>
     <body>
 
@@ -34,7 +34,6 @@
 
                 var leds = document.getElementById('leds');
                 var all_leds = leds.childNodes;
-console.log(all_leds);
                 for (var i=0; i < content.length; i++) {
 
                   all_leds[i].style.backgroundColor = rgbToHex(content[i][0], content[i][1], content[i][2]);
