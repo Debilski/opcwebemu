@@ -8,14 +8,16 @@
     <div id="leds"></div>
 
       <style>
-        .leds { display: flex; }
-        .led {
-          width: 1em;
-          height: 1em;
-          border: 1px dotted #999999;
-          display: inline-flex;
-
-        }
+          #leds {
+              display: flex;
+              justify-content: space-around;
+          }
+          .led {
+              width: 1em;
+              height: 1em;
+              border: 1px dotted #999999;
+              display: inline-flex;
+          }
       </style>
         <script>
         function componentToHex(c) {
